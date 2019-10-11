@@ -2,7 +2,7 @@
 
 ## Mybatis架构
 
-![1564534019709](C:\Users\Luge\AppData\Roaming\Typora\typora-user-images\1564534019709.png)
+![](C:\Users\Luge\Desktop\Typora\SSM\MyBatis\images\2019-09-16_135808.png)
 
 ## 配置文件
 
@@ -450,3 +450,12 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 4. 接口的返回值必须与sql的resultType一致
 ```
 
+## 创建mybatis项目
+
+### 第一步:新建数据库和数据表
+
+### 第二步:新建项目
+
+### 第三步:创建配置文件
+
+### 第四步:

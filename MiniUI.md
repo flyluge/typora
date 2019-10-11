@@ -181,7 +181,57 @@
    <input name="buydate" class="mini-datepicker" required="true"/></input>
    ```
 
-   
+## 表单验证
+
+### required="true" 必填项
+
+```html
+<input class="mini-textbox" required="true" />
+```
+
+### 参数验证
+
+* 整数 vtype="int"
+
+* 数字 vtype="float"
+
+* 0-100数字 vtype="range:0,100"
+
+* 字符串长度 vtype="minLength:2;maxLength:6"(2=<x<=6)
+
+* 字符数个数 vtype="rangeChar:2,6"
+
+* 必须是日期格式 vtype="date:yyyy-MM-dd"
+
+* 邮箱格式 5~20个字符 vtype="email;rangeLength:5,20;"
+
+* 自定义验证
+
+  ```html
+  <input class="mini-textbox" required="true" onvalidation="validateEnglish"/>
+  function validateEnglish(e){
+  	if(e.isValid){
+  		var re=new RegExp("^[a-zA-Z\_]+$");
+  		if(re.test(e.value)){
+  			e.isValid=true;
+  		}else{
+  			e.isValid=false;
+  		}
+  	}
+  }
+  ```
+
+### 正则
+
+1. 英文   ^[a-zA-Z\_]+$
+2. 中文   ^[\u4e00-\u9fa5]+$
+3. 英文加数字   ^[0-9a-zA-Z\_]+$
+
+
+
+
+
+
 
 
 

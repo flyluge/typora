@@ -117,7 +117,7 @@ action="${pageContext.request.contextPath }/loginAction2!execute2.action"
 
 ## 2.struts2的常用常量
 
-struts22有大量的常量，在default.properties配置文件中
+struts2有大量的常量，在default.properties配置文件中
 
 | 常量名                                 | 介绍                                       |
 | -------------------------------------- | ------------------------------------------ |
