@@ -91,7 +91,7 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 
 1. 系统定义的别名：对一些常用的Java类进行定义
 
-![1564563891635](C:\Users\Luge\AppData\Roaming\Typora\typora-user-images\1564563891635.png)![1564563965664](C:\Users\Luge\AppData\Roaming\Typora\typora-user-images\1564563965664.png)
+![1564563891635](..\typora-user-images\1564563891635.png)![1564563965664](C:\Users\Luge\AppData\Roaming\Typora\typora-user-images\1564563965664.png)
 
 2. 用户自定义别名
 
@@ -139,7 +139,7 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
    -->
    ```
 
-3. 方式三:映射文件包扫描*重点
+3. 方式三:映射文件包扫描*重点*
 
    ```xml
    <mappers>
